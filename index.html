@@ -601,6 +601,30 @@
   <!-- Custom scripts for this template -->
   <script src="js/freelancer.min.js"></script>
 
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCjoyZpaTgjjeDrRDbgcWBZTL6M3MbCjls",
+    authDomain: "portfolio-181dc.firebaseapp.com",
+    databaseURL: "https://portfolio-181dc.firebaseio.com",
+    projectId: "portfolio-181dc",
+    storageBucket: "",
+    messagingSenderId: "331557027714",
+    appId: "1:331557027714:web:e52a785f347068236f599b",
+    measurementId: "G-4SZJNGZM67"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
 </body>
 
 </html>
