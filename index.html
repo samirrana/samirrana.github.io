@@ -231,7 +231,7 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-          <form name="sentMessage" id="contactForm" novalidate="novalidate">
+          <form class = "gform" name="sentMessage" id="contactForm" method = "POST" novalidate="novalidate" action ="https://script.google.com/macros/s/AKfycbyrC91pgpzZTrXI0m7Y0veCYOWsUQsmJUMGqiYBNgnMWuilUfQ/exec">
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Name</label>
@@ -249,7 +249,7 @@
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Phone Number</label>
-                <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
+                <input class="form-control" id="phonenumber" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
